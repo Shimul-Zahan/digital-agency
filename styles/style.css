@@ -97,7 +97,7 @@ input{
 /* main part */
 .service-container{
     height: 100vh;
-    background: url("../assets/image/footer-bg.png"),linear-gradient( rgba(0,0,0,0.7), rgba(0, 0, 0, 0.8));
+    background: url("../assets/image/footer-bg.png"),linear-gradient(#1d1d1d, #1d1c1c, #1c1919);
     background-blend-mode: overlay;
     background-size: cover;
     display: flex;
@@ -148,7 +148,6 @@ input{
 
 
 
-
 /* card design */
 .card img{
     height: 100px;
@@ -179,4 +178,183 @@ input{
     align-items: center;
     gap: 50px;
     padding-top: 20px;
+}
+
+/* Apointment part */
+.apointment-container{
+    width: 80%;
+    height: 180px;
+    background: red;
+    margin: -90px auto 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 0 35px;
+}
+.caller-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.caller-number{
+    color: white;
+} 
+.caller-number h1{
+    font-size: 35px;
+}
+.caller-number h4{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.caller-part img{
+    height: 120px;
+}
+.call-info-part p{
+    position: relative;
+    width: 600px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    color: white;
+    border-left: 2px solid white;
+}
+.apointment-btn button{
+    height: 50px;
+    width: 200px;
+    background: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+/* Blog and News part */
+.blog-and-news-container{
+    text-align: center;
+}
+.blog-and-news-container h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+}
+.blog-and-news-container p{
+    width: 820px;
+    margin: 0 auto;
+    font-size: 23px;
+    margin-bottom: 60px;
+}
+
+/* blog card */
+.blog-cards{
+    width: 80%;
+    /* background: black; */
+    /* border: 1px solid; */
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 0px auto;
+}
+.blog-card{
+    height: 410px;
+    width: 330px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+} 
+.blog-card img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.blog-cards .blog-card h1{
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.blog-cards .blog-card p{
+    width: 100%;
+    font-size: 19px;
+    padding: 5px 10px;
+}
+/* footer part */
+.footer-container{
+    width: 100%;
+    margin-top: 30px;
+    height: 50vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+.contact{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+.adress{
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 1rem;
+    color: white;
+
+}
+.links ul{
+    margin-top: 30px;
+}
+
+.links ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin: 10px;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.contact-title-2{
+    text-align: left;
+    margin-left: -50px;
+}
+.contact-title-1{
+    text-align: left;
+    margin-left: -10px;
+}
+.contact-title-3{
+    text-align: left;
+    margin-left: -20px;
+}
+
+.second-part .details{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.footer-copyright{
+    height: 10vh;
+    background: black;
+}
+.copyright{
+    width: 80%;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    border-top: 1px solid gray;
+    margin: 0 auto;
 }
